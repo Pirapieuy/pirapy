@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        nav {
+            background-color: bisque;
+            border: 1px solid black;
+            padding: 2px;
+            margin: 5px;
+            max-width: 50%;
+            text-align: right;
+            border-radius: 50px;
+            margin: 0 auto 50px;
+        }
+        section {
+            border: 1px solid black;
+            border-radius: 50px;
+            max-width: 50%;
+            height: 500px;
+            background-color: bisque;
+            margin: 0 auto 5px;
+        }
+       a {text-decoration: none;}
+        footer {
+            text-align: center;
+            color: burlywood;
+            margin: 15px;
+        }
+        .container {
+            margin: 100px auto;
+            width: 100%;
+            display: flex;
+            overflow: auto;
+        }
+        .container::-webkit-scrollbar{
+            display: none;
+        }
+        .grup {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+            animation: spin 10s infinite linear;
+            padding-right: 1em;
+        }
+        .card {
+            flex: 0 0 150px;
+            height: 150px;
+            background: gray;
+            border-radius: 20px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @keyframes spin {
+            from {translate: 0;}
+            to {translate: -100%;}
+        }
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home |</a>
+        <a href="about.html">About Me |</a>
+        <a href="hobi.html">Hobby</a>
+    </nav> 
+    <section id="Social">
+    <h1 style="text-align: center;">🌐My Sosmed</h1>
+    <div class="container">
+            <div class="grup">
+                <div class="card">
+                    <img src="wa.jpg" alt="wa">
+                </div>
+                <div class="card">
+                    <img src="ig.jpg" alt="ig">
+                </div>
+                <div class="card">
+                    <img src="yt.jpg" alt="yt">
+                </div>
+                <div class="card">
+                    <img src="linkind.jpg" alt="lkd">
+                </div>
+                <div class="card">
+                    <img src="mon.jpg" alt="mn">
+                </div>
+                <div class="card">
+                    <img src="Free fire logo.jpg" alt="ff">
+                </div>
+            </div>
+            <div aria-hidden class="grup">
+                <div class="card">
+                    <img src="wa.jpg" alt="wa">
+                </div>
+                <div class="card">
+                    <img src="ig.jpg" alt="ig">
+                </div>
+                <div class="card">
+                    <img src="yt.jpg" alt="yt">
+                </div>
+                <div class="card">
+                    <img src="linkind.jpg" alt="lkd">
+                </div>
+                <div class="card">
+                    <img src="mon.jpg" alt="mn">
+                </div>
+                <div class="card">
+                    <img src="Free fire logo.jpg" alt="ff">
+                </div>
+            </div>
+            <div aria-hidden class="grup">
+                <div class="card">
+                    <img src="wa.jpg" alt="wa">
+                </div>
+                <div class="card">
+                    <img src="ig.jpg" alt="ig">
+                </div>
+                <div class="card">
+                    <img src="yt.jpg" alt="yt">
+                </div>
+                <div class="card">
+                    <img src="linkind.jpg" alt="lkd">
+                </div>
+                <div class="card">
+                    <img src="mon.jpg" alt="mn">
+                </div>
+                <div class="card">
+                    <img src="Free fire logo.jpg" alt="ff">
+                </div>
+             </div>
+        </div>
+        </section>
+    <footer>
+        <P>
+            Dibuat oleh Rafi<br>
+            Latihan HTML + CSS - Hari ke 
+        </P>
+    </footer>
+
+</body>
+</html>
